@@ -1,4 +1,6 @@
-#GO poc-gprc 
+# poc-gprc
+
+`Golang example`
 
 ```sh
 $ protoc -I helloworld/ helloworld/helloworld.proto --go_out=plugins=grpc:helloworld
